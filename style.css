@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(242, 240, 227);
+}
+
+.head {
+    width: 100%;
+    display: inline-flex;
+    box-shadow: 0px 5px 7px 0 rgb(64, 59, 56);
+    background-color: ivory;
+}
+
+header a {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    color: rgb(190, 182, 163);
+    text-decoration: none;
+    font-family: Luminari, fantasy;
+    font-size: 130%;
+}
+
+header h1 {
+    font-family: Impact, fantasy;
+    color: rgb(93, 85, 71);
+    font-size: 320%;
+}
+
+header h2 {
+    font-family: sans-serif;
+    color: rgb(125, 111, 84);
+    font-weight: 600;
+    font-size: 220%;
+}
+
+header h3 {
+    font-family: sans-serif;
+    color: rgb(160, 143, 110);
+    font-weight: 300;
+    font-size: 120%;
+}
+
+.ukraine {
+    width: 5%;
+    height: 3%;
+    margin: 10px;
+}
+
+.testimg {
+    padding: 22%;
+    background-image: url("https://learn.logikaschool.com/uploads/student/3366325/66756b7f332fb.png"); 
+    background-position: center;
+    background-size: cover;
+}
+
+.totoro {
+    width: 100%;
+}
+
+.shape {
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    border: 7px solid white;
+}
+
+.header {
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0px 4px 7px 0 rgb(131, 126, 120);
+    background-color: ivory;
+    border-radius: 5%;
+}
+
+.read {
+    display: inline-flex;
+    background-color: ivory;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0px 4px 7px 0 rgb(131, 126, 120);
+    box-shadow: 0px -4px 7px 0 rgb(131, 126, 120);
+}
+
+.arrow {
+    transform: rotate(90deg);
+    width: 3%;
+    height: 3%;
+}
+
+.hidden {
+    display: none;
+}
+
+.header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.story {
+    background-color: rgb(194, 174, 156);
+    width: 40%;
+    margin-left: 29%;
+    padding: 15px;
+    border-radius: 10%;
+    margin-top: 90px;
+    margin-bottom: 110px;
+}
+
+.p {
+    text-align: center;
+    width: 77%;
+    margin: 10px;
+    border-left: 6px solid rgb(105, 92, 80);
+    border-right: 6px solid rgb(105, 92, 80);
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 110%;
+}
+
+.book {
+    font-family: Impact, fantasy;
+    color: rgb(93, 85, 71);
+    font-size: 220%;
+}
+
+.chapters {
+    background-color: rgb(229, 224, 210);
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 180%;
+    padding:3%;
+    width: 86%;
+    border-radius: 2%;
+}
+
+main a {
+    background-color: rgb(194, 174, 156) ;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: Bradley Hand, cursive;
+    border-radius: 20%;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: ivory;
+    padding: 5%;
+
+}
+
+footer p {
+    font-size: 140%;
+    color: rgb(129, 112, 97);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(168, 154, 142) ;
+}
